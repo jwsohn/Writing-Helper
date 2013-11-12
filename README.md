@@ -1,15 +1,39 @@
-This is going to be a heading
-=============================
+A Guide for Writing Dissertation
+================================
 
-And this is going to be a subheading
-------------------------------------
+This is a dissertation-writing guide for Ph.D. students with a focus on
+making use of information technology assisting research process. Suggestions
+and contributions are always welcome. Please contact Jung-woo Sohn
+(jwsohn00@gmail.com) for any questions about this project.
 
-Markdown testing looks successful.
+Table of Contents
+-----------------
+Introduction
 
-Testing one two three. The sum is twelve.
+What you need
+  Write regularly, but not that much
+  Write some other stuffs
+  Work smart, not hard
+  Separate writing and editing
 
-    - one
-    - two
-    - three
+Tools
+  LaTeX
+  A process of building and managing your paper collection
+  Editors for LaTeX writing
+    Vim + Vim LaTeX-Suite}
+    Sublime Text 2 or 3}
+    TeXMaker, Mac os one, and TeXTronics
+    Learning LaTeX
+
+Tips for writing
+
+Fun, hobby work
+
+Conclusions
+
+
+Release history
+---------------
+Nov. 11th, 2013: initial release to the public
 
 
