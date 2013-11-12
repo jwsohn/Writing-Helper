@@ -11,19 +11,19 @@ Table of Contents
 Introduction
 
 What you need
-  Write regularly, but not that much
-  Write some other stuffs
-  Work smart, not hard
-  Separate writing and editing
+  - Write regularly, but not that much
+  - Write some other stuffs
+  - Work smart, not hard
+  - Separate writing and editing
 
 Tools
-  LaTeX
-  A process of building and managing your paper collection
-  Editors for LaTeX writing
-    Vim + Vim LaTeX-Suite}
-    Sublime Text 2 or 3}
-    TeXMaker, Mac os one, and TeXTronics
-    Learning LaTeX
+  - LaTeX
+  - A process of building and managing your paper collection
+  - Editors for LaTeX writing
+    - Vim + Vim LaTeX-Suite}
+    - Sublime Text 2 or 3}
+    - TeXMaker, Mac os one, and TeXTronics
+    - Learning LaTeX
 
 Tips for writing
 
