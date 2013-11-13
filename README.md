@@ -6,8 +6,13 @@ making use of information technology assisting research process. Suggestions
 and contributions are always welcome. Please contact Jung-woo Sohn
 (jwsohn00@gmail.com) for any questions about this project.
 
-Table of Contents
------------------
+Files
+-----
+See above for techies-guide-for-dissertation-writing.tex and the pdf file
+links. Please feel free to edit.
+
+Table of Contents (in the making)
+---------------------------------
 Introduction
 
 What you need
@@ -35,5 +40,4 @@ Conclusions
 Release history
 ---------------
 Nov. 11th, 2013: initial release to the public
-
 
