@@ -9,7 +9,7 @@ and contributions are always welcome. Please contact Jung-woo Sohn
 Files
 -----
 See above for techies-guide-for-dissertation-writing.tex and the pdf file
-links. Please feel free to edit.
+links. Please feel free to edit. Participations or comments are welcome!
 
 Table of Contents (in the making)
 ---------------------------------
