@@ -3,7 +3,7 @@
 \usepackage{fullpage}
 \usepackage{newcent} % times, palatino, newcent and bookman
 \usepackage{hyperref}
-%\usepackage{dtklogos}   % for \BibTeX
+\usepackage{dtklogos}   % for \BibTeX
 
 \begin{document}
 
@@ -252,19 +252,47 @@ tables, figures, math equations, theorems, and so on are all automatically
 taken care of. 
 
 But the most significant feature of LaTeX, in terms of researchers'
-perspective, is its citation management feature combined with BibTeX. A
-researcher has to know \emph{where} his knowledge comes from and that is the
-reason why we need to keep it a habit of tracking citation records.  The
-number of citations for a Ph.D. dissertation easily surpasses 100.  If you do
-not do the record keeping, you will be always lost in recovering your memory.
+perspective, is its citation management combined with BibTeX. A researcher has
+to know \emph{where} his knowledge comes from and that is the reason why we
+need to keep it a habit of tracking citation records.  The number of citations
+for a Ph.D. dissertation easily surpasses 100.  If you do not do the record
+keeping, you will be always lost in recovering your memory.
 
 So how does BibTeX manage your citation records? BibTeX citation file is a
-simple text file with specific citation field records. [FIGURE] You just need
-to add entries whenever you come across any good papers. 
+simple text file with specific citation field records (See
+Fig.~\ref{fig:bibtex-example} for an example). You just need to add entries
+whenever you come across any good papers. 
 
 There are other alternatives such as EndNote. EndNote is popular with
 Microsoft Office users. I do not have any experience with EndNote, so I skip
 EndNote in this manuscript. 
+
+\begin{figure}[ht]
+    \begin{center}
+    \begin{footnotesize}
+\begin{verbatim}
+@ARTICLE{gode-sunder-1993,
+  author = {Gode, Dhananjay K. and Sunder, Shyam},
+  title = {Allocative Efficiency of Markets with Zero-Intelligence Traders:
+    Market as a Partial Substitute for Individual Rationality},
+  journal = {Journal of Political Economy},
+  year = {1994},
+  volume = {101},
+  pages = {119--137}, 
+  number = {1},
+  month = feb,
+  issn = {0022--3808},
+  shorttitle = {Allocative Efficiency of Markets with Zero-Intelligence Traders},
+  abstract = {},
+  url = {http://www.jstor.org/stable/2138676}
+}
+\end{verbatim}
+    \end{footnotesize}
+    \end{center}
+    \caption{A \BibTeX~entry example for a journal paper.}
+    \label{fig:bibtex-example}
+\end{figure}
+
 
 \subsubsection{A process of building and managing your paper collection}
 Personally, I recommend using the combination of Zotero, BibTeX (and LaTeX of
