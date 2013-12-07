@@ -1,9 +1,15 @@
 \documentclass[11pt]{article}
 
 \usepackage{fullpage}
-\usepackage{newcent} % times, palatino, newcent and bookman
+%\usepackage{newcent}  % times, palatino, newcent and bookman
+\usepackage{bera}   % install texlive-fonts-extra for Bera fonts. Good for
+                    %  non-printout reading
+%\usepackage{enumitem}   % bullet point customization. Needed for Droid and DejaVu fonts
+                         %  Add [label=$\bullet$] for itemize headings.
 \usepackage{hyperref}
 \usepackage{dtklogos}   % for \BibTeX
+
+\usepackage{graphicx}   % for jpg image import
 
 \begin{document}
 
@@ -338,15 +344,87 @@ database and paper PDF file database.
 This feature is very simliar to Evernote's. Whenever you click on the Evernote
 button from your web browser, the Evernote plugin clips your web page of
 interest and saves it. Zotero does the same but it automatically recognizes
-the paper PDF file linked on the web page and save them altogether.
+the paper PDF file linked on the web page and save them altogether, 
+generating a catalogue.
 
 \subsection{Editors for LaTeX writing}
 
-\subsubsection{Vim + Vim LaTeX-Suite}
+There are a bunch of them --- basically you can use Windows Notepad as well.
+But having a LaTeX-aware provides a great boost with your work efficiency. For
+me, I find syntax highlighting (or coloring), auto indentation, and auto
+word-completion (citations, links, etc)  features helpful. Note that these
+features are all present for any LaTeX editors.
+
+One thing I would like to recommend to you writers is so-called
+``distraction-free'' feature. A number of editors have this --- it creates a
+full-screen editing environment, without a pull-down menus or icons for other
+jobs that might distract you into something else. Please have a look at my
+working environment (Fig.~\ref{fig:distraction-free}):
+
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{figure/distract-free-shot}
+    \end{center}
+    \caption{My ``distraction-free'' editing with \texttt{vim} on a Linux
+        terminal}
+    \label{fig:distraction-free}
+\end{figure}
+
+See? This helps you with not wasting time your away with clicking on here and
+there on your web browser. 
+
+\subsubsection{TeXMaker, TeXShop on Mac, and TeXTronics}
+If you think you are a beginner, start with TeXMaker. You won't regret it. If
+you are a Mac enthusiast, consider TeXShop as well. However, note that
+TeXMaker is cross-platform; it runs on Windows, Mac OS X, and Linux as well.
+
+Some people recommend TeXTronics but I am not so sure about its advantages.
 
 \subsubsection{Sublime Text 2 or 3}
+People are raving on it. Seriously. This is an editor that you might want to
+purchase. 
 
-\subsubsection{TeXMaker, Mac os one, and TeXTronics}
+One drawback is that Sublime Text needs some customizations. It is a
+general-purpose editor, not only for writing LaTeX documents, but also for
+writing in other programming languages such as C, Java, Python, Ruby, etc.
+However, once setup, Sublime Text becomes very useful. 
+
+In addition, Sublime Text is highly configurable. Therefore you can customize
+it at your will: font and paragraph customization, themes, shotcut keys,
+distraction-free environment, preview mode, 80-column indicator, and so on. 
+Some people say that this is the editor with emacs-level configurability.
+And there are tons of 3rd-party plugins. 
+
+Sublime Text is the best editor I would like to recommend, if I have to choose
+one from this section (and TeXMaker as the second for its ease of use). Be
+sure to give it a serious try at least once.
+
+\subsubsection{Vim + Vim LaTeX-Suite}
+This is my personal choice but learning \texttt{vi} can be a pain when you are
+not accustomed to Linux or shell environment. In other words, very nice for
+geeks but not very recommended for other users. (And you probably know by now
+if you need to skip this section or read further.)
+
+In case you are using \texttt{vim}, be sure to have a serious look at Vim
+LaTeX-Suite. \texttt{vim} is good enough, but LaTeX-Suite is a plug-in for
+\texttt{vim} and provides extra features such as paragraph folding and quick
+search for your BibTeX entries. 
+
+Of course, you can use the holy \texttt{emacs} instead of \texttt{vim}.
+\texttt{emacs} is always rich with great features that human minds can
+ever imagine. 
+
+One clear disadvantage with \texttt{vim} is its multi-window support.
+\texttt{vim} is now equipped with multi-window support, but my opinion is that
+\texttt{vi}'s interface is not very much multi-window friendly. For me, I
+ended up using \texttt{byobu}, which is an enhancement on the classic
+\texttt{screen}. Or you can use any terminal emulator with mutiple tab-window
+support.
+
+When you use \texttt{byobu}, some shortcut keys conflict with Vim
+LaTeX-Suite's. A quick tip: press \texttt{shift + F12} key to disable them.
+
+\subsubsection{Online LaTeX editors:}
 
 
 \subsection{Learning LaTeX}
